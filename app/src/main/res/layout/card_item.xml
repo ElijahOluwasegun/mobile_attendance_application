@@ -16,13 +16,13 @@
         android:layout_marginTop="5dp"
     android:scaleType="centerCrop"
     android:src="@drawable/ic_course_default"
-    android:contentDescription="Course Icon"/>
+    android:contentDescription="@string/card_item_img_alt_text"/>
 
     <TextView
         android:id="@+id/course_name"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Course Name"
+        android:text="@string/grid_view_default_name"
         android:textColor="@color/black"
         android:textSize="14sp"
         android:textStyle="bold"

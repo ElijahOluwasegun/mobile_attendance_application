@@ -8,4 +8,6 @@
     <string name="password_hint_text">1234#$?</string>
     <string name="button_text">Login</string>
     <string name="course_view_textview">Select a Course for Attendance</string>
+    <string name="card_item_img_alt_text">Course Icon</string>
+    <string name="grid_view_default_name">Course Name</string>
 </resources>
