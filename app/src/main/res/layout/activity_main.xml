@@ -12,7 +12,8 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/cavendish_uganda"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:contentDescription="@string/cavendish_logo_alt_text"/>
 
 
     <TextView
