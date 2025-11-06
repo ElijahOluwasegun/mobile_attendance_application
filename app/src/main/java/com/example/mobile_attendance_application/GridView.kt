@@ -27,7 +27,7 @@ class GridView : AppCompatActivity() {
             CourseModel("BDSA - Bachelors Data Science and Artificial Intelligence", R.drawable.data_science),
             CourseModel("BJCS - Bachelors of Journalism and Communication Studies", R.drawable.journalism),
             CourseModel("BPH - Bachelor of Science in Public Health", R.drawable.public_health),
-            CourseModel("BIRDS", R.drawable.international_relations),
+            CourseModel("BIRDS - Bachelor of International Relations and Diplomatic Studies", R.drawable.international_relations),
             CourseModel("BPAM - Bachelors of Public Administration & Management", R.drawable.public_admin_management2)
         )
 

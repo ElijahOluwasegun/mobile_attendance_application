@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:layout_marginTop="0dp"
     android:background="@drawable/blue_wallpaper"
     tools:context=".GridView">
 
@@ -26,7 +25,7 @@
         android:layout_height="match_parent"
         android:numColumns="2"
         android:columnWidth="150dp"
-        android:verticalSpacing="12dp"
+        android:verticalSpacing="20dp"
         android:horizontalSpacing="12dp"
         android:stretchMode="columnWidth"
         android:gravity="center"/>
