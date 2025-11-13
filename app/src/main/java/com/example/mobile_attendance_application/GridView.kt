@@ -1,6 +1,8 @@
 package com.example.mobile_attendance_application
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.GridView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -10,6 +12,7 @@ class GridView : AppCompatActivity() {
     // NOTE: You must add a default drawable named 'ic_course_default' to R.drawable
     // or replace it with your actual course icon IDs.
     private val DEFAULT_ICON = R.drawable.ic_course_default
+    private lateinit var gridViewButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,6 +43,16 @@ class GridView : AppCompatActivity() {
             val selectedCourse = courses[position]
             Toast.makeText(this, "Navigating to Attendance for: ${selectedCourse.name}", Toast.LENGTH_SHORT).show()
             // Here, you would start the next activity (e.g., AttendanceActivity)
+        }
+
+        gridViewButton = findViewById(R.id.gridViewButton)
+
+        gridViewButton.setOnClickListener {
+                // Login successful (In a real app, this would check against a database)
+                val intent = Intent(this, ModuleActivity::class.java) // Change to your desired main screen
+                startActivity(intent)
+                finish() // Prevents the user from pressing back to the login screen
+
         }
     }
 }

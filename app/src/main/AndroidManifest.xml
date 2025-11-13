@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mobile_attendance_application">
         <activity
+            android:name=".RegisteredStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModuleActivity"
+            android:exported="false" />
+        <activity
             android:name=".GridView"
             android:exported="false" />
         <activity
